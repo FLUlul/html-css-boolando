@@ -23,6 +23,7 @@ body{
 }
 .scheda{
     float: left;
+    margin: 0 5px;
 }
 .containerFoto{
     float: left;
@@ -41,6 +42,7 @@ body{
     bottom: 30px;
     color: white; 
     font-weight: 500;
+    z-index: 50;
 }
 .sconto{
     background-color: red;
@@ -69,9 +71,10 @@ body{
     top: 30px;
     padding: 10px 20px;
     background-color: white;
+    z-index: 50;
 }
 
-
+/* descrizione prodotto */
 .containerProdotto{
     margin: 0 5px;
     padding: 5px 0;
@@ -92,4 +95,27 @@ body{
 .prezzoScontato{
     float: left;
     text-decoration: line-through ;
+}
+
+
+.fotoA{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+}
+
+.fotoB{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.scheda:hover .fotoB{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 20;
 }
