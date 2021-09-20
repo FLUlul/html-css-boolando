@@ -148,7 +148,7 @@ body{
     display: none;
     position: absolute;
     right: calc(100% / 2);
-    bottom: calc(50% / 2);
+    bottom: calc(100% / 2);
     left: 0;
     background-color: rgba(0, 0, 0, 0.226);
     border-radius: 0px 10px 10px 0;
@@ -157,5 +157,13 @@ body{
     display: block;
 }
 .overlay h4{
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+span{  
+    text-align: center; 
+    padding: 10px;
+}
+.taglie{
+    text-align: center;
 }
