@@ -8,34 +8,29 @@
     display: table;
     clear: both;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* contenitore main */
 .container{
     width: 90%;
     margin:auto;
-    /* debug */
-    background-color: blueviolet;
 }
 
 /* sezione schede */
 .rigaSchede{
     margin: 2% auto;
-    /* debug */
-    background-color: aqua;
 }
 .scheda{
     float: left;
-    background-color: brown;
-    border: solid green;
 }
 .containerFoto{
     float: left;
-    border: solid;
     margin: 1% 5px;
     position: relative;
 }
 .containerFoto img{
-    width: 500px;
+    height: 720px;
 }
 
 
@@ -44,19 +39,19 @@
     position: absolute;
     left: 0;
     bottom: 30px;
+    color: white; 
+    font-weight: 500;
 }
 .sconto{
     background-color: red;
     padding: 3px 5px;
     float: left;
-    color: white;
     margin-right: 5px;
 }
 .sostenibile{
     float: left;
     background-color: green;
     padding: 3px 5px;
-    color: white;
 }
 .sostenibile::after{
     content: "Sostenibilitá";
@@ -78,5 +73,23 @@
 
 
 .containerProdotto{
-
+    margin: 0 5px;
+    padding: 5px 0;
+}
+.marca{
+    font-size: 15px;
+}
+.prodotto{
+    font-size: 18px;
+    font-weight: 600;
+}
+.prezzo{
+    float: left;
+    margin-right: 5px;
+    color: red;
+    font-weight: 600;
+}
+.prezzoScontato{
+    float: left;
+    text-decoration: line-through ;
 }
