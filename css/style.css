@@ -116,3 +116,9 @@ body{
     top: 0;
     z-index: 20;
 }
+.scheda:hover{
+    cursor: pointer;
+}
+.cuore:hover{
+    color:red;
+}
